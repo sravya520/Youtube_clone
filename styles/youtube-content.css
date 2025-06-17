@@ -21,8 +21,9 @@
     display: grid;
 /*     grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    column-gap: 16px;
-    row-gap: 40px;
+/*     column-gap: 16px;
+    row-gap: 40px; */
+    gap: 20px;
 }
 
 @media (max-width: 750px){
