@@ -19,11 +19,8 @@
 } 
 .youtube-grid{
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr; */
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    /* column-gap: 16px;
-    row-gap: 40px; */
 }
 
 @media (max-width: 750px){
@@ -53,9 +50,6 @@
     column-gap: 16px;
     margin-top: 0px;
 }
-/* .video-preview{
-    display: flex;
-} */
 
 .profile-picture{
     width: 36px;
